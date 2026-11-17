@@ -16,6 +16,7 @@ import sys
 import zipfile
 from pathlib import Path
 
+VERSION = "0.01"
 APPID = "1133760"
 # Steam installdir uses two spaces between CROSS and THE
 DIR_HINTS = (
@@ -182,6 +183,7 @@ def apply_patch(game: Path, files: Path) -> None:
 
 
 def main() -> None:
+    print(f"Chrono Cross JP-Faithful installer v{VERSION}")
     if len(sys.argv) > 1 and sys.argv[1] in ("-h", "--help"):
         print(__doc__)
         print("Optional: set CHRONO_CROSS_PATH to the game root folder.")

@@ -1,8 +1,14 @@
 # Chrono Cross JP-Faithful (Steam)
 
+**Version 0.01**
+
 English language pack for **CHRONO CROSS: THE RADICAL DREAMERS EDITION** (Steam) that keeps proper nouns as Japanese readings (romaji), removes the localization’s cartoon accents, and corrects lines that invented jokes or misnamed people/places.
 
 You need a legal Steam copy of the game. This project does **not** include the game binary.
+
+## Playtest status (0.01)
+
+Very initial only: game starts, loads into play, and early dialogue shows patched names (e.g. Yamaneko). No further playthrough has been done yet. Fuller playtesting is planned soon.
 
 ## What it changes
 
